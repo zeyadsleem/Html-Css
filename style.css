@@ -1,0 +1,142 @@
+/*إعدادات القالب الأساسي */
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+/* بداية التعديل علي رأس الصفحة */
+header {
+    margin: 12px 8px;
+    padding: 20px;
+    background-color: #17506A;
+    border-radius: 15px;
+}
+
+header h1{
+    color: lavender;
+    font-size: 20px;
+}
+
+header h2{
+    color: lavenderblush;
+    font-size: 25px;
+}
+
+header img {
+    overflow: hidden;
+    float: left;
+    width: 150px;
+    position: relative;
+    border-radius: 75px;
+}
+
+/*بداية التعديل علي القوائم */
+nav {
+    overflow: hidden;
+    max-width: 180px;
+}
+
+nav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.home {
+    border: 2px solid #02ABEE;
+    border-radius: 15px;
+    background-color: #ddd;
+    color: black;
+}
+
+.books {
+    margin-right: 8px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    background-color: #02ABEE;
+    color: white;
+}
+/*نهاية التعديل علي القوائم */
+/* نهاية التعديل علي رأس الصفحة */
+
+
+/* بداية التعديل علي محتوي الصفحة الرئيسية*/
+.content {
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ddd;
+    width: 97%;
+}
+
+.content h3{
+    margin: auto;
+    padding: 10px;
+    border: 0.4px solid #02ABEE ;
+    border-radius: 25px;
+    color: #FFF0F5;
+    background-color: #17506A;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* بداية التعديل علي الجداول */
+.table {
+    width: 100%;
+    margin-left: 20px;
+}
+
+thead {
+    margin: auto;
+    border: 0.4px solid #02ABEE;
+    border-radius: 25px;
+    color: #FFF0F5;
+    background-color:#124968;
+    width: 40%;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+td {
+    text-align: right;
+    padding: 10px;
+}
+
+td img {
+    max-width: 100px;
+    height: auto;
+}
+
+.section {
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ebeea4;
+    width: 97%;
+}
+
+section h4 {
+    text-align: right;
+}
+
+.book-photo {
+    text-align: center;
+    margin: auto;
+}
+
+.book-photo a {
+    text-decoration: none;
+}
+
+.book-para {
+    width: 70%;
+}
+/* نهاية التعديل علي الجدول  */
+/* نهاية التعديل علي محتوي الصفحة الرئيسية */ 
